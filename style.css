@@ -1,7 +1,7 @@
 
 #wrapper {
     position: relative;
-    width: 30%;
+    width: 25%;
     height: 70%;
     border: 2px solid rgb(130,130,130);
     box-shadow: 0 0 20px 10px rgba(255,255,255, .1);
@@ -27,8 +27,9 @@ form {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    padding: 30px 20%;
+    padding: 100px 10%;
     color: #c7c7c7;
+    margin-top: auto;
 }
 h1 {
     margin-right: auto;
@@ -42,7 +43,7 @@ h1 {
     width: 100%;
 }
 .label-input:first-of-type {
-    margin-top: 50px;
+    margin-top: auto;
 }
 .label-input:nth-of-type(2) {
     margin-top: 50px;
@@ -62,20 +63,20 @@ h1 {
     font-size: 16px;
 }
 a {
-    margin-top: 20px;
-    margin-right: auto;
+    margin: 20px auto auto 0;
     color: #c7c7c7;
 }
 .btn-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: auto;
     width: 100%;
 }
 button {
     padding: 10px 20px;
-    width: 100px;
+    width: 150px;
+    height: 50px;
     background:
     transparent
     linear-gradient(135deg, rgba(0,0,0,0), rgba(200,200,200,.4))
@@ -85,4 +86,6 @@ button {
     cursor: pointer;
     border: 1px solid #c7c7c7;
     border-radius: 10px;
+    font-size: 20px;
+    text-shadow: 0 0 2px black;
 }
